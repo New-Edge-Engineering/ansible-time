@@ -1,0 +1,15 @@
+---
+galaxy_info:
+  author: Matthew Green
+  company: New Edge Engineering
+  description: install npt service
+  min_ansible_version: 1.2
+  license: MIT
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+  categories:
+  - system
+
+dependencies: []
