@@ -2,4 +2,7 @@
 - name: ensure ntpd is at the latest version
   apt: pkg=ntp state=latest
   notify:
-  - restart ntp
+    - restart ntp
+  tags:
+    - time
+    - packages
